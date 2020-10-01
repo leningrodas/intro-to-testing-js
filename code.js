@@ -4,6 +4,6 @@
 // }
 
 function sayHello(){
-    return "";
+    return 'Hello, Jane!';
 }
 
