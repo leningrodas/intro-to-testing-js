@@ -4,5 +4,6 @@
 // }
 
 function sayHello(){
-    return Hello;
+    return "";
 }
+

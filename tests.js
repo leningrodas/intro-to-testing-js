@@ -20,4 +20,8 @@ describe('sayHello', function () {
     it('it should be defined function', function () {
         expect(typeof sayHello).toBe('function');
     });
+    it('should return a string when called', function () {
+        expect(typeof sayHello()).toBe("string");
+    });
 });
+
