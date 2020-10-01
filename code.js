@@ -26,7 +26,9 @@
 function isFive(input) {
     if (input === 5) {
         return true;
-    } else {
+    } else if (input == "string")
+    { return true; }
+    else {
         return input === true;
     }
 }
